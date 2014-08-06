@@ -18,6 +18,7 @@ Rails.application.configure do
   # Add `rack-cache` to your Gemfile before enabling this.
   # For large-scale production use, consider using a caching reverse proxy like nginx, varnish or squid.
   # config.action_dispatch.rack_cache = true
+   config.action_mailer.default_url_options = { host: 'http://tallersvnav.herokuapp.com/' }
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = false

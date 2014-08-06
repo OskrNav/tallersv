@@ -42,4 +42,6 @@ gem 'rails_12factor', group: :production
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'devise', '~> 3.2.4'
+
 ruby "2.0.0"
